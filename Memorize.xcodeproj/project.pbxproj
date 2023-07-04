@@ -12,6 +12,7 @@
 		3406EA902A409451007A8C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3406EA8F2A409451007A8C39 /* Assets.xcassets */; };
 		3406EA932A409451007A8C39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3406EA922A409451007A8C39 /* Preview Assets.xcassets */; };
 		34EF16952A4C7734005022EB /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF16942A4C7734005022EB /* MemoryGame.swift */; };
+		34EF16982A4C808E005022EB /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF16972A4C808E005022EB /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3406EA8F2A409451007A8C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3406EA922A409451007A8C39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34EF16942A4C7734005022EB /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		34EF16972A4C808E005022EB /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		3406EA8A2A40944F007A8C39 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				34EF16992A4C8098005022EB /* VieModel */,
 				34EF16962A4C7AE0005022EB /* Model */,
 				3406EA8B2A40944F007A8C39 /* MemorizeApp.swift */,
 				3406EA8D2A40944F007A8C39 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				34EF16942A4C7734005022EB /* MemoryGame.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		34EF16992A4C8098005022EB /* VieModel */ = {
+			isa = PBXGroup;
+			children = (
+				34EF16972A4C808E005022EB /* EmojiMemoryGame.swift */,
+			);
+			path = VieModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				34EF16952A4C7734005022EB /* MemoryGame.swift in Sources */,
 				3406EA8E2A40944F007A8C39 /* ContentView.swift in Sources */,
 				3406EA8C2A40944F007A8C39 /* MemorizeApp.swift in Sources */,
+				34EF16982A4C808E005022EB /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
